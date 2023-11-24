@@ -1,0 +1,31 @@
+.remove-All-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+
+  .remove-btn {
+    font-size: 28px;
+  }
+}
